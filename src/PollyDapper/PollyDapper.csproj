@@ -8,11 +8,11 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>PollyDapper</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Description>Polly v8 resilience pipelines for Dapper — wrap QueryAsync, ExecuteAsync, and other Dapper calls with retry, timeout, circuit-breaker, and more using a single ResilientDbConnection decorator. Zero changes to existing SQL.</Description>
     <PackageTags>polly;dapper;resilience;retry;timeout;circuit-breaker;fault-tolerance;dotnet;aspnetcore;polly-v8;sql;database;orm;transient;dependency-injection</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResilientDbConnection wraps IDbConnection Dapper calls in a Polly v8 ResiliencePipeline. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResilientDbConnection wraps IDbConnection Dapper calls in a Polly v8 ResiliencePipeline. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollyDapper</RepositoryUrl>
@@ -40,8 +40,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
