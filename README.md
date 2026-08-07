@@ -4,6 +4,7 @@
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyDapper.svg)](https://www.nuget.org/packages/PollyDapper)
 [![CI](https://github.com/Swevo/PollyDapper/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyDapper/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![.NET 10 Ready](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet)](#)
 
 **Polly v8 resilience pipelines for Dapper** — wrap `QueryAsync`, `ExecuteAsync`, and other Dapper calls with retry, timeout, circuit-breaker, and more using a single `ResilientDbConnection` decorator. Zero changes to your SQL.
 
